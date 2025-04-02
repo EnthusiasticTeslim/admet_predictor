@@ -1,13 +1,11 @@
 from shiny import App, render, ui, reactive
-import pandas as pd
-
-from models import predict_admet
-from utils import (get_risk_class, read_smiles, format_value)
+from drugchecker.models import predict_admet
+from drugchecker.utils import (get_risk_class, read_smiles, format_value)
 
 # UI Definition
 app_ui = ui.page_fluid(
     ui.tags.head(
-        ui.tags.style(open("www/styles.css").read()),
+        ui.tags.style(open("styles.css").read()),
     ),
     ui.tags.title("ADMET Prediction Tool"),
     ui.div(
