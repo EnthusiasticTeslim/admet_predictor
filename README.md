@@ -19,7 +19,7 @@ A responsive web application for predicting ADMET (Absorption, Distribution, Met
 1. Clone this repository:
 ```bash
 git clone https://github.com/EnthusiasticTeslim/admet_predictor
-cd admet-modeling
+cd admet_predictor
 ```
 
 2. Environment setup (recommended):
