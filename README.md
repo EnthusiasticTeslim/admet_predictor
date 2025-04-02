@@ -44,6 +44,30 @@ shiny run --reload app.py
 
 4. View the predicted ADMET properties
 
+## Future Work
+
+1. Enhance Molecular Visualization:
+   - Implement interactive 3D molecular visualization using py3Dmol
+   - Add support for different visualization styles (ball-and-stick, surface, etc.)
+   - Enable rotation, zoom, and measurement tools
+   - Include 2D structure depiction option
+
+2. Improve Prediction Models:
+   - Replace placeholder values with RDKit-based descriptors and properties
+   - Integrate empirical models for key ADMET properties:
+     - LogP and LogS calculations
+     - Molecular weight and topological polar surface area
+     - Number of rotatable bonds and H-bond donors/acceptors
+   - Add machine learning models trained on experimental data
+   - Include confidence scores for predictions
+
+3. Current Features:
+   - Basic SMILES input and file upload functionality
+   - Simple color-coded risk assessment:
+     - Green: Favorable/Low risk
+     - Yellow: Moderate risk  
+     - Red: High risk/Concerning
+
 ## Dependencies
 
 - shiny
