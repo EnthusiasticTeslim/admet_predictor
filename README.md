@@ -25,8 +25,8 @@ cd admet_predictor
 2. Environment setup (recommended):
 
 ```bash
-~$chmod +x setup.sh
-~$sh setup.sh
+~$chmod +x env/setup.sh
+~$sh env/setup.sh
 ~$source admet/bin/activate
 ```
 
